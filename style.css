@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: black;
+}
+
+img{
+    float: right;
+    padding-top: 100px;
+    padding-right: 130px;
+}
+
+.viaja{
+    float: left;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alfa{
+    /* float: left; */
+    color: white;
+    padding-top: 300px;
+    padding-left: 100px;
+    font-size: 6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.beta{
+    /* float: left; */
+    color: white;
+    padding-top: 400px;
+    padding-left: 100px;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gama{
+    /* float: left; */
+    color: white;
+    padding-top: 500px;
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    padding-top: 300px;
+}
+
+section a{
+    padding: 10px 20px 10px 20px;
+    margin: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 300px;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+span svg{
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+
+
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
